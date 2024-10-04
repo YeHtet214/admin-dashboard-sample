@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --background: 210 33% 96%;
+  --foreground: 0 0 20%;
+  --background-secondary: 210 33% 96%;
+  --primary:  222 83%53%;
+  --secondary: 235 45% 50%;
+}
+
+/* Dark mode */
+html.dark {
+  --background: 240 22% 11%;
+  --foreground: 240 8% 46%;
+  --background-secondary: 240 22% 11%;
+  --primary:  222 83%53%;
+  --secondary: 240 20% 15%;
+}
